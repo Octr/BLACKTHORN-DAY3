@@ -8,7 +8,11 @@
 # Changes
  - Downgraded Unity Version (2022.3.5f1) to (2022.3.4f1)
  - Restructured Asset Folder
+ - Added Singleton Abstract Class
+ - Converted to URP
 
 
 # Credits
 https://pixabay.com/users/grand_project-19033897/
+https://pixabay.com/users/muzaproduction-24990238/
+https://pixabay.com/users/solitarymaninblacksmok-21073496/
