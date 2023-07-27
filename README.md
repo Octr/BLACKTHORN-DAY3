@@ -17,6 +17,7 @@
  - Added "Police Target" To Taxi
  - Police Car Knockback Added
  - Police Car Cooldown After Impact Added (Waits at impact location)
+ - Added Second Police Car
 
 
 

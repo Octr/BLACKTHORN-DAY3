@@ -67,7 +67,7 @@ public class HealthManager : MonoBehaviour
             ModifyHealth(-10);
 
             PoliceAi policeAI = collision.gameObject.GetComponent<PoliceAi>();
-            policeAI.agent.SetDestination(collision.gameObject.transform.position); // Set the destination to self to stop moving forward?
+            policeAI.agent.SetDestination(collision.gameObject.transform.position *-0.01f); // Set the destination to self to stop moving forward?
             policeAI.isWaiting = true;
             policeAI.StartCoroutine("Cooldown");
 
