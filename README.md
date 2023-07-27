@@ -1,7 +1,7 @@
 # BLACKTHORN-DAY3
  For DAY 3 - Pass the GAME Challenge 2023
 
- Original (Day1): https://itch.io/jam/day-1/rate/2187939
+ Original (Day1): https://theterrificjd.itch.io/bus-chase-city)
  Day 2: https://devcaty.itch.io/rouge-bus
 
 
