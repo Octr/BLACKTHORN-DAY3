@@ -6140,7 +6140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementController: {fileID: 3252211943475493236}
-  target: {fileID: 195787197137847693}
+  target: {fileID: 6836604254033885955}
   skidDotThreshold: 0.5
   skidSpeedThreshold: 200
 --- !u!1 &2826148759292170758
@@ -7050,7 +7050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementController: {fileID: 3252211943475493236}
-  target: {fileID: 7900274173706649639}
+  target: {fileID: 4481207334931152445}
   skidDotThreshold: 0.5
   skidSpeedThreshold: 200
 --- !u!1 &5468250818000092172
@@ -7239,7 +7239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementController: {fileID: 3252211943475493236}
-  target: {fileID: 2159436762721618585}
+  target: {fileID: 7258576547107213541}
   skidDotThreshold: 0.8
   skidSpeedThreshold: 50
 --- !u!1 &5897160831851092004
@@ -7748,7 +7748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementController: {fileID: 3252211943475493236}
-  target: {fileID: 8803498375526528521}
+  target: {fileID: 2525204238470562563}
   skidDotThreshold: 0.8
   skidSpeedThreshold: 50
 --- !u!1 &7550832894336067122
@@ -8441,8 +8441,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5bba1fc36636254da95c42b3bc0f9c2, type: 3}
+--- !u!4 &2525204238470562563 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2128198083183728382, guid: a5bba1fc36636254da95c42b3bc0f9c2, type: 3}
+  m_PrefabInstance: {fileID: 4504640872206046717}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4109827666036748822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a5bba1fc36636254da95c42b3bc0f9c2, type: 3}
+  m_PrefabInstance: {fileID: 4504640872206046717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4481207334931152445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 50596594197605312, guid: a5bba1fc36636254da95c42b3bc0f9c2, type: 3}
+  m_PrefabInstance: {fileID: 4504640872206046717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6836604254033885955 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6945619734755880702, guid: a5bba1fc36636254da95c42b3bc0f9c2, type: 3}
+  m_PrefabInstance: {fileID: 4504640872206046717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7258576547107213541 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6500972350761239832, guid: a5bba1fc36636254da95c42b3bc0f9c2, type: 3}
   m_PrefabInstance: {fileID: 4504640872206046717}
   m_PrefabAsset: {fileID: 0}
