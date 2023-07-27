@@ -14,6 +14,7 @@ public class BoostZone : MonoBehaviour
             Vector3 boostDirection = transform.forward;
 
             mc.AddExternalForce(boostDirection * boostStrength);
+            mc.currentSpeed *= boostStrength;
         }
     }
 }

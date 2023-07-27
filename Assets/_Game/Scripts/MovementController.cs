@@ -29,7 +29,7 @@ public class MovementController : MonoBehaviour
     float jumpTime = 0f;
     float gravity = 0f;
     Vector3 externalForce;
-    float currentSpeed;
+    public float currentSpeed;
     Vector3 lastVelocity;
 
     public bool DEBUG;

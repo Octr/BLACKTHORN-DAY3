@@ -21,6 +21,7 @@
  - Replaced Breakable Cars (Ambulance, Tractor, Truck)
  - Replaced All Buildings
  - Buildings Explode
+ - Fixed Boosters Not Applying "Real Speed" needed for destroying objects
 
 
 
