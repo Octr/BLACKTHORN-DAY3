@@ -10,6 +10,8 @@
  - Restructured Asset Folder
  - Added Singleton Abstract Class
  - Converted to URP
+ - Organized Scene Hierarchy
+ - Created Prefabs From Scene Objects
 
 
 # Credits
