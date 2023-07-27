@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
             {
                 Game.Instance.GetDestructionEffect(transform.position);
                 Game.Instance.AddScore(scoreValue);
+                ScreenshakeManager.Instance.ApplyScreenshake();
                 gameObject.SetActive(false);
             } else
             {

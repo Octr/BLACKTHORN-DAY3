@@ -92,11 +92,12 @@ public class HealthManager : MonoBehaviour
             movementController.enabled = false;
         }
 
-        if (deathPanel != null)
-        {
-            deathPanel.targetPosition = targetPanelPosition;
-            deathPanel.gameObject.SendMessage("SlideOnScreenSmoothly");
-        }
+        //if (deathPanel != null)
+        //{
+            //deathPanel.targetPosition = targetPanelPosition;
+            //deathPanel.gameObject.SendMessage("SlideOnScreenSmoothly");
+            BustedScreen.Instance.DoThisPlease(); // I was having a bad day today
+        //}
 
     }
 

@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class BustedScreen : MonoBehaviour
+public class BustedScreen : Singleton<BustedScreen>
 {
     public float slideDuration = 1.5f;
     public Vector3 targetPosition;
     private Vector3 initialPosition;
     private bool isSliding = false;
+    public GameObject endCanvas;
 
     public Button restartButton;
 
@@ -19,12 +20,18 @@ public class BustedScreen : MonoBehaviour
         restartButton.onClick.AddListener(RestartLevel);
     }
 
+    public void DoThisPlease()
+    {
+        endCanvas.SetActive(true);
+    }
+
     private void SlideOnScreenSmoothly()
     {
         if (!isSliding)
         {
             isSliding = true;
-            StartCoroutine(SlidePanelSmoothly());
+            
+            //StartCoroutine(SlidePanelSmoothly());
         }
     }
 
