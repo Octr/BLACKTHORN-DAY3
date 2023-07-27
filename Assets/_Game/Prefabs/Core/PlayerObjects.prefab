@@ -436,6 +436,7 @@ MonoBehaviour:
   jumpForce: 350
   maxJumpDuration: 0.15
   maxExternalForcePerFrame: 10
+  currentSpeed: 0
   DEBUG: 1
 --- !u!54 &6620163436287690813
 Rigidbody:
@@ -6707,7 +6708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3180866779614261000}
   m_LocalRotation: {x: -0, y: -0.9997591, z: -0, w: -0.021950249}
-  m_LocalPosition: {x: 14.86, y: 0.075, z: -25}
+  m_LocalPosition: {x: 17.81, y: 0.075, z: 20.410002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8972,7 +8973,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7344122489899153660}
   m_LocalRotation: {x: -0, y: -0.7224586, z: -0, w: 0.69141424}
-  m_LocalPosition: {x: -35.77, y: 0.075, z: -25.79}
+  m_LocalPosition: {x: 21.83, y: 0.075, z: 19.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
