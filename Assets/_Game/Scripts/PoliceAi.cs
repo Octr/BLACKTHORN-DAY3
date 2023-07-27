@@ -5,10 +5,11 @@ using UnityEngine.AI;
 
 public class PoliceAi : MonoBehaviour
 {
-    [SerializeField]
-    NavMeshAgent agent;
+    public NavMeshAgent agent;
 
     public Transform target;
+    public bool isWaiting;
+    public float cooldown = 3f;
 
     void Start()
     {
@@ -21,6 +22,15 @@ public class PoliceAi : MonoBehaviour
 
     void Update()
     {
-       agent.SetDestination(target.position);
-    } 
+        if(isWaiting) return;
+
+        agent.SetDestination(target.position);
+    }
+
+    public IEnumerator Cooldown()
+    {
+        isWaiting = true;
+        yield return new WaitForSeconds(cooldown);
+        isWaiting = false;
+    }
 }

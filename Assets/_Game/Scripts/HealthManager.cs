@@ -21,6 +21,8 @@ public class HealthManager : MonoBehaviour
     public BustedScreen deathPanel;
     public Vector3 targetPanelPosition;
 
+    public float forceMagnitude = 10f;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -62,8 +64,18 @@ public class HealthManager : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Police"))
         {
-            ModifyHealth(-10f);
+            ModifyHealth(-10);
+
+            PoliceAi policeAI = collision.gameObject.GetComponent<PoliceAi>();
+            policeAI.agent.SetDestination(collision.gameObject.transform.position); // Set the destination to self to stop moving forward?
+            policeAI.isWaiting = true;
+            policeAI.StartCoroutine("Cooldown");
+
+            //Knockback
+            Vector3 oppositeForceDirection = -collision.contacts[0].normal;
+            collision.gameObject.GetComponent<Rigidbody>().AddForce(oppositeForceDirection * forceMagnitude, ForceMode.Impulse);
         }
+
     }
 
     private void FlipObject()
