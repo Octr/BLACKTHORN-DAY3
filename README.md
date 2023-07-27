@@ -7,6 +7,7 @@
 
 # Changes
  - Downgraded Unity Version (2022.3.5f1) to (2022.3.4f1)
+ - Restructured Asset Folder
 
 
 # Credits
