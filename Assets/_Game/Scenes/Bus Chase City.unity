@@ -686,6 +686,14 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.000000006380304
       objectReference: {fileID: 0}
+    - target: {fileID: 6747871703319433399, guid: 69e58972016f8284d858bdb0d1300f34, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747871703319433399, guid: 69e58972016f8284d858bdb0d1300f34, type: 3}
+      propertyPath: m_ShadowAngle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

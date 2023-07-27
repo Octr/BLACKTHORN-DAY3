@@ -22,6 +22,9 @@
  - Replaced All Buildings
  - Buildings Explode
  - Fixed Boosters Not Applying "Real Speed" needed for destroying objects
+ - Added Post Processing Effects
+ - Tire Screech SFX
+ - Destroy SFX
 
 
 
@@ -34,3 +37,8 @@ https://www.kenney.nl/assets/city-kit-suburban
 https://pixabay.com/users/grand_project-19033897/
 https://pixabay.com/users/muzaproduction-24990238/
 https://pixabay.com/users/solitarymaninblacksmok-21073496/
+https://freesound.org/people/oldestmillennial/sounds/538213/
+https://freesound.org/people/kasa90/sounds/163694/
+https://freesound.org/people/cylon8472/sounds/249686/
+https://freesound.org/people/elliottdj/sounds/685910/
+https://freesound.org/people/plumaudio/sounds/488228/

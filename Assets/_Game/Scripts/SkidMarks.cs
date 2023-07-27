@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SkidMarks : MonoBehaviour
 {
+    public AudioSource audioSource;
     TrailRenderer trailRenderer;
     public MovementController movementController;
     public Transform target;
@@ -28,11 +29,17 @@ public class SkidMarks : MonoBehaviour
         // Check if the dot product is below the threshold
         if (Mathf.Abs(Input.GetAxis("Horizontal")) >= skidDotThreshold && movementController.GetSpeed() >= skidSpeedThreshold && movementController.IsGrounded() && transform.position.y < .12f)
         {
+            if(!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+
             SetTrail(true);
         }
         else
         {
             SetTrail(false);
+            audioSource.Stop();
         }
     }
 }
