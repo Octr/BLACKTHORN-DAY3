@@ -19,12 +19,15 @@
  - Police Car Cooldown After Impact Added (Waits at impact location)
  - Added Second Police Car
  - Replaced Breakable Cars (Ambulance, Tractor, Truck)
+ - Replaced All Buildings
+ - Buildings Explode
 
 
 
 # Credits
 https://www.kenney.nl/assets/car-kit
 https://www.kenney.nl/assets/city-kit-commercial
+https://www.kenney.nl/assets/city-kit-suburban
 
 
 https://pixabay.com/users/grand_project-19033897/
