@@ -12,6 +12,8 @@
  - Converted to URP
  - Organized Scene Hierarchy
  - Created Prefabs From Scene Objects
+ - Bus Is Now Taxi
+ - Blue Bus Is Now Police
 
 
 # Credits
