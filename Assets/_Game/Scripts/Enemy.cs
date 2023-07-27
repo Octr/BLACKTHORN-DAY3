@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int scoreValue = 1000;
+    public bool isBuilding;
 
     Rigidbody rb;
 
@@ -19,14 +20,23 @@ public class Enemy : MonoBehaviour
         MovementController mc = collision.gameObject.GetComponent<MovementController>();
         if (mc)
         {
-            if(mc.GetSpeed() > 100)
+            if(mc.GetSpeed() > 200)
             {
                 Game.Instance.GetDestructionEffect(transform.position);
                 Game.Instance.AddScore(scoreValue);
                 gameObject.SetActive(false);
             } else
             {
-                rb.AddForceAtPosition(mc.GetVelocity() * 2f, collision.contacts[0].point);
+                if(isBuilding)
+                {
+                    rb.AddForceAtPosition(mc.GetVelocity() * 10f, collision.contacts[0].point);
+                }
+                else
+                {
+                    rb.AddForceAtPosition(mc.GetVelocity() * 4f, collision.contacts[0].point);
+                }
+
+                
             }
         }
     }
